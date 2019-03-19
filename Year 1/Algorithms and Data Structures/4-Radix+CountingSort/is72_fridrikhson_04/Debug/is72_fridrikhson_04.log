@@ -1,7 +1,0 @@
-﻿  stdafx.cpp
-  is72_fridrikhson_04.cpp
-g:\алгоритмы\is72_fridrikhson_04\is72_fridrikhson_04\is72_fridrikhson_04.cpp(81): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-g:\алгоритмы\is72_fridrikhson_04\is72_fridrikhson_04\is72_fridrikhson_04.cpp(81): warning C4101: num: неиспользованная локальная переменная
-g:\алгоритмы\is72_fridrikhson_04\is72_fridrikhson_04\is72_fridrikhson_04.cpp(104): warning C4101: buff: неиспользованная локальная переменная
-  LINK : не найден или не выполнена сборка G:\АЛГОРИТМЫ\is72_fridrikhson_04\Debug\is72_fridrikhson_04.exe при последней инкрементной компоновке; выполняется полная компоновка
-  is72_fridrikhson_04.vcxproj -> G:\АЛГОРИТМЫ\is72_fridrikhson_04\Debug\is72_fridrikhson_04.exe
