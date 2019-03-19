@@ -1,0 +1,38 @@
+input.output {
+	width: 60px;
+}
+input {
+	margin: 10px;
+}
+div.first_task > input {
+	width: 50px;
+} 
+input.output1 {
+	width: 100px;
+}
+div.third_task input {
+	width: 300px;
+}
+#manipulation {
+	border: 3px solid blue;
+	position: absolute;
+	width: 300px;
+}
+table, th, td {
+	text-align: center;
+	border: 1px solid black;
+	border-spacing: 0;
+}
+td, th {
+	width: 150px;
+}
+
+textarea {
+	margin-left: 10px;
+	resize: none;
+	display: inline-block;
+}
+ 
+#anim {
+	height: 300px;
+}

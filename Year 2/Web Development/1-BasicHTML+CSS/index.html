@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 2</title>
+		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+		<link rel="shortcut icon" href="dog-paw.png">
+		<link rel="stylesheet" type="text/css" href="application.css">
+		<style>
+
+			.animals-table {
+				margin-top: -20px;
+				text-align: center;
+			}
+
+			.animals-list {
+				list-style-position: inside;
+				list-style-type: none;
+			}
+
+			.animals-list > li  {
+				display: inline-block;
+				text-align: center;
+				margin: 30px;
+			}
+
+			.animals-list p {
+				display: inline;
+			}
+			.animal-img {
+				height: 200px;
+				width: 200px;
+				border-radius: 20px;
+				border: 3px solid black;
+				object-fit: cover;
+				box-shadow: 15px 15px 10px rgba(0, 0, 0, 0);
+			    -webkit-transition: opacity 1s, box-shadow 1s;
+			    -moz-transition: opacity 1s, box-shadow 1s;
+			    -o-transition: opacity 1s, box-shadow 1s;
+			    transition: opacity 1s, box-shadow 1s;
+			}
+			.animal-img:hover {
+		      opacity: 1;
+		      box-shadow: 15px 15px 10px rgba(0, 0, 0, .5);
+		    }
+
+			.info {
+				width: 400px;
+				margin: auto;
+				margin-top: -15px;
+				text-align: center;
+			}
+
+			.info table {
+				margin: auto;
+				text-align: center;
+				padding-bottom: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 class="title container" style="text-align: center">Animals</h1>
+		<h3 style="text-align: center; margin-top: 30px">Select an <span style="color:red">animal</span> you want to know more about</h3>
+		<div class="animals-table">
+			<ul class="animals-list">
+			<li class="animal">
+				<a href="lion.html">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/800px-Lion_waiting_in_Namibia.jpg" class="animal-img"/><br/>
+					<p>Lion</p>
+				</a>
+			</li>
+			<li>
+				<a href="tiger.html">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Royal_Bengal_Tiger_at_Kanha_National_Park.jpg/800px-Royal_Bengal_Tiger_at_Kanha_National_Park.jpg" class="animal-img"/><br/>
+					<p>Tiger</p>
+				</a>
+			</li>
+			<li>
+				<a href="zebra.html">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Plains_Zebra_Equus_quagga.jpg/800px-Plains_Zebra_Equus_quagga.jpg" class="animal-img"/><br/>
+					<p>Zebra</p>
+				</a>
+			</li>
+			<li>
+				<a href="cheetah.html">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cheetah_%28Acinonyx_jubatus%29_female_2.jpg/800px-Cheetah_%28Acinonyx_jubatus%29_female_2.jpg" class="animal-img"/><br/>
+					<p>Cheetah</p>
+				</a>
+			</li>
+		</ul>
+		</div>
+		<div class="info container">
+			<h2>Info</h2>
+			<table>
+				<tr>
+					<th>Animal</th>
+					<th>Habitat</th>
+					<th>Lifespan</th>
+					<th>Endangered</th>
+				</tr>
+				<tr>
+					<td>Lion</td>
+					<td>Africa</td>
+					<td>10-14 years</td>
+					<td><span style="color: green">No</span></td>
+				</tr>
+				<tr>
+					<td>Tiger</td>
+					<td>Asia</td>
+					<td>20-26 years</td>
+					<td><span style="color: red">Yes</span></td>
+				</tr>
+				<tr>
+					<td>Zebra</td>
+					<td>Africa</td>
+					<td>20-30 years</td>
+					<td><span style="color: green">No</span></td>
+				</tr>
+				<tr>
+					<td>Cheetah</td>
+					<td>Africa</td>
+					<td>10-12 years</td>
+					<td><span style="color: red">Yes</span></td>
+				</tr>
+			</table>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB6C4980-660D-450E-A6A2-81366E7557CC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HiringSystem</RootNamespace>
+    <AssemblyName>HiringSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applicant.cs" />
+    <Compile Include="ApplicantInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicantInfo.Designer.cs">
+      <DependentUpon>ApplicantInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BackgroundCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackgroundCheck.Designer.cs">
+      <DependentUpon>BackgroundCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoursesInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoursesInfo.Designer.cs">
+      <DependentUpon>CoursesInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoursesTrainee.cs" />
+    <Compile Include="CoursesTraineeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoursesTraineeInfo.Designer.cs">
+      <DependentUpon>CoursesTraineeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CV.cs" />
+    <Compile Include="CVRevision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CVRevision.Designer.cs">
+      <DependentUpon>CVRevision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employer.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="FailedInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FailedInfo.Designer.cs">
+      <DependentUpon>FailedInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FillInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FillInfo.Designer.cs">
+      <DependentUpon>FillInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindVacancy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindVacancy.Designer.cs">
+      <DependentUpon>FindVacancy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HR.cs" />
+    <Compile Include="Internship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Internship.Designer.cs">
+      <DependentUpon>Internship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterviewAndTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterviewAndTest.Designer.cs">
+      <DependentUpon>InterviewAndTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Introduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Introduction.Designer.cs">
+      <DependentUpon>Introduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobDescription.cs" />
+    <Compile Include="PhoneInterview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhoneInterview.Designer.cs">
+      <DependentUpon>PhoneInterview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectType.Designer.cs">
+      <DependentUpon>SelectType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectVacancy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectVacancy.Designer.cs">
+      <DependentUpon>SelectVacancy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingingContract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingingContract.Designer.cs">
+      <DependentUpon>SingingContract.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ApplicantInfo.resx">
+      <DependentUpon>ApplicantInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackgroundCheck.resx">
+      <DependentUpon>BackgroundCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoursesInfo.resx">
+      <DependentUpon>CoursesInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoursesTraineeInfo.resx">
+      <DependentUpon>CoursesTraineeInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CVRevision.resx">
+      <DependentUpon>CVRevision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FailedInfo.resx">
+      <DependentUpon>FailedInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FillInfo.resx">
+      <DependentUpon>FillInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindVacancy.resx">
+      <DependentUpon>FindVacancy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Internship.resx">
+      <DependentUpon>Internship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterviewAndTest.resx">
+      <DependentUpon>InterviewAndTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Introduction.resx">
+      <DependentUpon>Introduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneInterview.resx">
+      <DependentUpon>PhoneInterview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SelectType.resx">
+      <DependentUpon>SelectType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectVacancy.resx">
+      <DependentUpon>SelectVacancy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingingContract.resx">
+      <DependentUpon>SingingContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adult-agency-business-380769.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

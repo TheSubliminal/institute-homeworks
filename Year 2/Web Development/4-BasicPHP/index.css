@@ -1,0 +1,46 @@
+caption {
+	font: 30pt bold;
+}
+table {
+	border-spacing: 0;
+}
+table, td {
+	border: 1px solid black;
+}
+
+td {
+	text-align: center;
+	width: 100px;
+	height: 30px;
+}
+td:not(:empty) {
+	box-shadow: inset 0 0 0 5px red;
+}
+
+form {
+	text-align: center;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	border: 3px solid black;
+	border-radius: 20px;
+}
+form > input {
+	margin-top: 5px;
+}
+form > input[type="number"] {
+	width: 70px;
+}
+form > input[type="submit"] {
+	width : 100px;
+	height: 40px;
+}
+.alert {
+	padding: 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 3px solid red;
+	border-radius: 20px;
+	background-color: rgba(255, 0, 0, 0.3);
+	text-align: center;
+}

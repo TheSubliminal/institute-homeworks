@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 4</title>
+		<link rel="stylesheet" type="text/css" href="application.css">
+	</head>
+	<body>
+		<div class="first_task">
+			<h2><span style="color: red">1.1 </span>Triangle area</h2>
+			<input placeholder="X1"><input placeholder="Y1"><br>
+			<input placeholder="X2"><input placeholder="Y2"><br>
+			<input placeholder="X3"><input placeholder="Y3"><br>
+			<input class="output1" placeholder="Result">
+		</div>
+		<div class="second_task">
+			<h2><span style="color: red">1.2 </span>Swap inputs</h2>
+			<input id="text1" placeholder="Text..."><input id="text2" placeholder="Another text...">
+		</div>
+		<div class="third_task">
+			<h2><span style="color: red">1.3 </span>Number of the max numbers</h2>
+			<input id="text1" placeholder="Comma separated sequence of numbers">
+			<button id="submit3">Count</button><br>
+			<p class="answer"></p>
+		</div>
+		<div class="fourth_task">
+			<h2><span style="color: red">1.4 </span>Verify triangle sides' lengths</h2>
+			<input placeholder="L1">
+			<input placeholder="L2">
+			<input placeholder="L3">
+			<button id="submit4">Verify</button><br>
+			<p class="answer"></p>
+		</div>
+		<div class="fifth_task">
+			<h2><span style="color: red">1.5 </span>&lt;hr&gt; manipulation</h2>
+			<table>
+				<tr>
+					<th colspan="4">Position</th>
+					<th colspan="2">Width</th>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<button id="submit5l">&larr;</button>
+						<button id="submit5r">&rarr;</button>
+						<button id="submit5u">&uarr;</button>
+						<button id="submit5d">&darr;</button>
+					</td>
+					<td colspan="2">
+						<button id="submit5+">+</button>
+						<button id="submit5-">-</button>
+					</td>
+				</tr>
+			</table>
+			<hr id="manipulation">
+		</div>
+		<div class="sixth_task">
+			<h2><span style="color: red">1.6 </span>Table colouring</h2>
+			<table id="colour_table">
+				<tr>
+					<td colspan="3">
+						<select id="table_colour_select">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+					<td>
+						<select class="colour">
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+							<option value="yellow">Yellow</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="seventh_task">
+			<h2><span style="color: red">1.7 </span>Number of lucky tickets</h2>
+			<p id="task_answer7"></p>
+		</div>
+		<div class="eighth_task">
+			<h2><span style="color: red">1.8 </span>Week number by date</h2>
+			<input style="display: inline-block;" type="date" id="date_select">
+			<p style="display: inline-block;" id="task_answer8"></p>
+		</div>
+		<div class="ninth_task">
+			<h2><span style="color: red">1.9 </span>Counting word in user's text</h2>
+			<textarea rows="4" cols="50" placeholder="Your text goes here..." id="text_field"></textarea>
+			<p style="display: inline;" id="task_answer9"></p>
+		</div>
+		<div class="tenth_task">
+			<h2><span style="color: red">1.10 </span>Animation of an array of images</h2>
+			<img src="" id="anim">
+		</div>
+		<div class="eleventh_task">
+			<h2><span style="color: red">1.11 </span>Email verification</h2>
+			<input placeholder="Email" id="email_input">
+			<button id="submit11">Verify</button><br>
+			<p id="task_answer11"></p>
+		</div>
+		<script src="lab_5.js"></script>
+	</body>
+</html>

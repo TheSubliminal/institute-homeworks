@@ -1,0 +1,11 @@
+Total lenght of asphalted quarters : 800
+Total minimal cost for the work : 12000
+Asphalted quarters:
+1 - 2
+1 - 4
+2 - 3
+2 - 5
+3 - 6
+4 - 7
+5 - 8
+6 - 9
